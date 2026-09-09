@@ -1,0 +1,82 @@
+.register-section {
+  width: 100%;
+}
+
+.register-section-header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 20px;
+
+  border: none;
+  background-color: #dddddd;
+
+  font-size: 14px;
+  text-align: left;
+
+  cursor: pointer;
+}
+
+.register-section-header:hover {
+  background-color: #d2d2d2;
+}
+
+.register-arrow {
+  transition: transform 0.25s;
+}
+
+.register-arrow.open {
+  transform: rotate(180deg);
+}
+
+.register-section-content {
+  padding: 20px 35px;
+  background-color: white;
+}
+
+/* Campos del formulario */
+
+.register-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.register-field label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.register-field input {
+  padding: 9px 12px;
+
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+
+  font-size: 14px;
+}
+
+.register-field input:focus {
+  outline: none;
+  border-color: #4269a1;
+}
+
+/* Requisitos de contraseña */
+
+.password-requirements {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.password-requirements p {
+  margin-bottom: 5px;
+}
+
+.password-requirements ul {
+  margin: 0;
+  padding-left: 18px;
+}

@@ -1,0 +1,48 @@
+.register-patient-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #4269a1;
+
+  padding: 40px;
+}
+
+.register-patient-form {
+  width: 50%;
+  max-width: 600px;
+
+  background-color: white;
+  border-radius: 28px 0 0 28px;
+
+  overflow: hidden;
+}
+
+.register-patient-form h1 {
+  font-size: 28px;
+  margin: 0;
+  padding: 22px 28px;
+}
+
+.register-submit {
+  width: calc(100% - 50px);
+
+  margin: 25px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #4269a1;
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.register-submit:hover {
+  background-color: #355788;
+}
